@@ -1,0 +1,26 @@
+@import "variables";
+body{
+    background-color: $main-dark;
+}
+
+h2,
+h3 {
+    font-family: $syled-font;
+    color: $main-light;
+}
+
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.banner-principal {
+    height: 600px;
+}
+
+.text-center {
+    text-align: center;
+}
+#portafolio img{
+    max-width: 100%;
+}
